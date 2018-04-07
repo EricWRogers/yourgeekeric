@@ -1,0 +1,415 @@
+/*test cashe*/
+
+@media (min-width:929px) {
+    body{
+        font: 15px/1.5 Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        background-color:#f4f4f4;
+    }
+
+    /*Global*/
+    .container{
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .button_1{
+        height: 38px;
+        background: #20C20E;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    /*Header*/
+    header{
+        background: #35424a;
+        color: #ffffff;
+        padding-top: 38px;
+        min-height: 70px;
+        border-bottom: #20C20E 3px solid;
+    }
+    header a{
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+    header li{
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+    }
+
+    header #branding{
+        float: left;
+    }
+
+    header #branding h1{
+        margin:0;
+    }
+
+    header nav{
+        float: right;
+        margin-top: 10px;
+    }
+
+    header .highlight, header .current a{
+        color: #20C20E;
+        font-weight: bold;
+    }
+
+    header a:hover{
+        color: #cccccc;
+        font-weight: bold;
+    }
+
+    /*ShowCase*/
+    #showcase{
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    #showcaseImage{
+      background:url('../img/ericlookingaway.jpg')  no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    #showcase h3{
+        margin-top: 50px;
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+    #showcase p{
+        font-style: italic;
+    }
+
+    /*NewsLetter*/
+    #newsletter{
+        padding:15px;
+        color: #ffffff;
+        background: #35424a;
+        border-bottom: #20C20E 3px solid;
+    }
+
+    #newsletter h1{
+        text-align: center;
+    }
+
+    #newsletter form{
+        float: right;
+        margin-top: 15px;
+    }
+
+    #newsletter input[type="email"]{
+        padding:4px;
+        height: 25px;
+        width:250px;
+    }
+
+    /*recentproject*/
+    #recentproject{
+        padding:15px;
+        color: #ffffff;
+        background: #35424a;
+        border-top: #20C20E 3px solid;
+        border-bottom: #20C20E 3px solid;
+    }
+
+    #recentproject h1{
+        text-align: center;
+    }
+
+    #recentproject form{
+        float: right;
+        margin-top: 15px;
+    }
+
+    #recentproject input[type="email"]{
+        padding:4px;
+        height: 25px;
+        width:250px;
+    }
+
+    /*Youtube Videos Scaling*/
+    .projectvideo {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .projectvideo iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    /*boxes*/
+    #boxes{
+        margin-top: 20px;
+        min-height: 350px;
+    }
+    #boxes .box{
+        min-height: 350px;
+        float: left;
+        text-align: center;
+        width:30%;
+        padding: 10px;
+    }
+    #boxes .box img{
+        width: 90px;
+    }
+
+    /*boxesProject*/
+    #boxesProject{
+        margin-top: 20px;
+    }
+    #boxesProject .boxProject{
+        /*float: left;*/
+        text-align: center;
+        padding: 10px;
+    }
+    #boxesProject .boxProject img{
+      width: 500px;
+    }
+    /*Footer*/
+    footer{
+        padding: 20px;
+        margin-top:20px;
+        color: #ffffff;
+        background-color:#20C20E;
+        text-align: center;
+    }
+    .portfolio{
+        margin-top: 20px;
+        padding: 20px;
+	/*float: left;*/
+    }
+    .portfolio p{
+	
+    }
+}
+@media (max-width:928px) {
+    body{
+        font: 15px/1.5 Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        background-color:#f4f4f4;
+    }
+
+    /*Global*/
+    .container{
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .button_1{
+        height: 38px;
+        background: #20C20E;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    /*Header*/
+    header{
+        background: #35424a;
+        color: #ffffff;
+        padding-top: 38px;
+        min-height: 70px;
+        border-bottom: #20C20E 3px solid;
+    }
+    header a{
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+    header li{
+        float: left;
+        display: inline;
+        padding-right:10px;
+        padding-bottom: 20px;
+    }
+
+    header #branding{
+        float: left;
+    }
+
+    header #branding h1{
+        margin:0;
+    }
+
+    header nav{
+        float: right;
+        margin-top: 10px;
+    }
+
+    header nav ul{
+        padding-left: 10px;
+    }
+
+    header .highlight, header .current a{
+        color: #20C20E;
+        font-weight: bold;
+    }
+
+    header a:hover{
+        color: #cccccc;
+        font-weight: bold;
+    }
+
+    /*ShowCase*/
+    #showcase{
+        min-height: 400px;
+        background:url('../img/eric.jpg') no-repeat 0 -100px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #showcase h3{
+        margin-top: 60px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #showcase p{
+        font-style: italic;
+    }
+
+    /*NewsLetter*/
+    #newsletter{
+        padding:15px;
+        color: #ffffff;
+        background: #35424a;
+        border-bottom: #20C20E 3px solid;
+    }
+
+    #newsletter h1{
+        text-align: center;
+    }
+
+    #newsletter form{
+        float: right;
+        margin-top: 15px;
+    }
+
+    #newsletter input[type="email"]{
+        padding:4px;
+        height: 25px;
+        width:250px;
+    }
+
+    /*recentproject*/
+    #recentproject{
+        padding:15px;
+        color: #ffffff;
+        background: #35424a;
+        border-top: #20C20E 3px solid;
+        border-bottom: #20C20E 3px solid;
+    }
+
+    #recentproject h1{
+        text-align: center;
+    }
+
+    #recentproject form{
+        float: right;
+        margin-top: 15px;
+    }
+
+    #recentproject input[type="email"]{
+        padding:4px;
+        height: 25px;
+        width:250px;
+    }
+
+    /*Youtube Videos Scaling*/
+    .projectvideo {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .projectvideo iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    /*boxes*/
+    #boxes{
+        margin-top: 20px;
+    }
+    #boxes .box{
+        float: left;
+        text-align: center;
+        /*width:30%;*/
+        padding: 10px;
+    }
+    #boxes .box img{
+        width: 90px;
+    }
+    /*boxesProject*/
+    #boxesProject{
+        margin-top: 20px;
+    }
+    #boxesProject .boxProject{
+        /*float: left;*/
+        text-align: center;
+        padding: 10px;
+    }
+    #boxesProject .boxProject img{
+      width: 200px;
+    }
+    /*Footer*/
+    footer{
+        padding: 20px;
+        margin-top:20px;
+        color: #ffffff;
+        background-color:#20C20E;
+        text-align: center;
+    }
+    .portfolio{
+        margin-top: 20px;
+        padding: 20px;
+	/*float: left;*/
+    }
+    .portfolio p{
+	
+    }
+}
